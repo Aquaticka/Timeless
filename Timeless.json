@@ -9,7 +9,7 @@
 	"priority": 0,
 	"badge_colour": "e6a3be",
 	"badge_text_colour": "FFFFFF",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"dependencies": [
         "Lovely (>=0.6)"
     ]
