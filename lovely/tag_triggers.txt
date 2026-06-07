@@ -1,0 +1,36 @@
+
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 10
+
+
+# tag trigger after completing round
+[[patches]]
+[patches.pattern]
+target = "functions/game.lua"
+pattern = '''
+
+if math.abs(G.round_eval.T.y - G.round_eval.VT.y) < 3 then
+G.ROOM.jiggle = G.ROOM.jiggle + 3
+play_sound('cardFan2')
+delay(0.1)
+G.FUNCS.evaluate_round()
+return true
+end
+end
+end}))
+return true
+end
+}))  
+'''
+
+position = "after"
+payload = '''
+
+for i = 1, #G.GAME.tags do
+	G.GAME.tags[i]:apply_to_run({type = 'immediate'})
+end
+
+'''
+match_indent = true
