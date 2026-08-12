@@ -1,5 +1,5 @@
 # Timeless
-Timeless is a moderate-scale gameplay mod for Balatro which contains 7 new seals, a new set of 12 Mystic Cards, corresponding Boosters, and 2 new Editions! Timeless aims to add expanded content which enhances build variety, and fit within the power level and style of vanilla Balatro.
+Timeless is a gameplay mod for Balatro which contains 7 new seals, a new set of 12 Mystic Cards, corresponding Boosters, and 2 new Editions! Timeless aims to add expanded content which enhances build variety, and fit within the power level and style of vanilla Balatro.
 
 
 Table of Contents:
@@ -49,6 +49,15 @@ Editions:
 # Design Philosophy
 
 # Mod Development
+
+Working within an existing game can be trickier in some ways than building your own game.
+
+Coding New Mechanics:
+Building the Library:
+Emerald Seal Queuing:
+
+
+
 
 
 # Install Guide
