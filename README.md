@@ -48,6 +48,10 @@ Editions:
 
 # Design Philosophy
 
+Timeless aims to expand core content, adjust the incentives towards different late-game builds, and expand build variance to facilitate novelty across runs. Vanilla Balatro builds converge on a few strong late-game setups, and often use the same utility cards to facilitate scaling. This can result in repetitive gameplay for players who like to tinker with new ideas or have played the game extensively. 
+
+
+
 # Mod Development
 
 Working within an existing game can be trickier in some ways than building your own game.
