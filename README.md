@@ -11,8 +11,7 @@ Table of Contents:
 # Content
 
 Mystic Cards:
-
-<img width="2172" height="1626" alt="MysticCollage" src="https://github.com/user-attachments/assets/832a18ac-e066-4e1d-9a4c-c7d3b339d770" />
+<img width="1728" height="1372" alt="MysticCanva" src="https://github.com/user-attachments/assets/686662cb-3af3-4654-9f0f-26aca8e83b27" />
 
 Seals:
 
