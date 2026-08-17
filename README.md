@@ -12,20 +12,7 @@ Table of Contents:
 
 Mystic Cards:
 
-<img width="1053" height="497" alt="MysticShelf" src="https://github.com/user-attachments/assets/b424dfa2-3ccd-4ca7-a833-24ec224dc0b3" />
-
-
-<img width="289" height="254" alt="Vision" src="https://github.com/user-attachments/assets/6c1106c7-0ffe-44f1-9fee-24f6b737944e" />
-<img width="227" height="250" alt="Spirit" src="https://github.com/user-attachments/assets/d37ab291-edc4-455d-9ead-839dcedb063e" />
-<img width="290" height="249" alt="Rebirth" src="https://github.com/user-attachments/assets/5abd39ab-8bdf-4dff-b90b-0fc98bc73b44" />
-<img width="251" height="249" alt="Nightmare" src="https://github.com/user-attachments/assets/40463e9f-bb25-4990-adba-5796a6835388" />
-<img width="219" height="239" alt="Mind" src="https://github.com/user-attachments/assets/7291c5a8-407a-42ab-ba9c-d45eaae64b6b" />
-<img width="198" height="233" alt="Memento" src="https://github.com/user-attachments/assets/86c0a4cc-171f-430c-977e-aff4491aa61f" />
-<img width="231" height="249" alt="Love" src="https://github.com/user-attachments/assets/ed779658-bdcf-465c-86c0-0aed75f6102b" />
-<img width="277" height="250" alt="Hunger" src="https://github.com/user-attachments/assets/6553eea4-20ed-4ad1-b3aa-b0e526c0cef8" />
-<img width="249" height="252" alt="Grief" src="https://github.com/user-attachments/assets/6e8a1521-dc4c-4286-89c2-9e7cb7444238" />
-<img width="218" height="237" alt="Dream" src="https://github.com/user-attachments/assets/58089563-6465-4728-8763-bca26f419d20" />
-<img width="320" height="254" alt="Body" src="https://github.com/user-attachments/assets/db16355f-1584-436c-9a97-08e887e1e118" />
+<img width="2172" height="1626" alt="MysticCollage" src="https://github.com/user-attachments/assets/832a18ac-e066-4e1d-9a4c-c7d3b339d770" />
 
 Seals:
 
