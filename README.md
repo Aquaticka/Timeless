@@ -50,7 +50,7 @@ Editions:
 
 Timeless aims to extend core content, adjust late-game build incentives, and match the design of vanilla Balatro. Currently, builds converge on a small number of strong late-game setups, and leverage the same utility effects. This can result in repetitive gameplay across runs
 
-# Mod Programming
+# Mod Development
 
 Working within an existing game can be trickier in some ways than building your own game.
 
