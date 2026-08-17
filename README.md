@@ -1,5 +1,5 @@
 # Timeless
-Timeless is a gameplay mod for Balatro which contains 7 new seals, a new set of 12 Mystic Cards, corresponding Boosters, and 2 new Editions! Timeless aims to add expanded content which enhances build variety, and fit within the power level and style of vanilla Balatro.
+Timeless is a gameplay mod for Balatro which contains 7 new seals, a new set of 12 Mystic Cards, corresponding Boosters, and 2 new Editions! Timeless aims to extend core content, adjust late-game build incentives, and match the visual and gameplay design of Balatro.
 
 
 Table of Contents:
@@ -48,15 +48,17 @@ Editions:
 
 # Design Philosophy
 
-Timeless aims to expand core content, adjust the incentives towards different late-game builds, and expand build variance to facilitate novelty across runs. Vanilla Balatro builds converge on a few strong late-game setups, and often use the same utility cards to facilitate scaling. This can result in repetitive gameplay for players who like to tinker with new ideas or have played the game extensively. 
+Timeless aims to extend core content, adjust late-game build incentives, and match the design of vanilla Balatro. Currently, builds converge on a small number of strong late-game setups, and leverage the same utility effects. This can result in repetitive gameplay across runs
 
-
-
-# Mod Development
+# Mod Programming
 
 Working within an existing game can be trickier in some ways than building your own game.
 
 Coding New Mechanics:
+Timeless implements mechanics outside of what already exists in Balatro. This required scripting new mechanics and modifying game systems, which required the mod to understand and interact directly with the source code. The [Lovely Injector](https://github.com/ethangreen-dev/lovely-injector) provided a method to dump the game's code into its source files, and to modify/inject new code at runtime. This was used to expand the localization parser, and inject a Skip Tag check at the end of each round. This let the mod render colourful, well-formatted effect descriptions to communicate new mechanics, and ensure the Memento/Tourmaline Seal effects trigger when they should. The [Steammodded Modloader](https://github.com/Steamodded/smods) provided a method for loading scripts into the game. This was used to load scripts for Mystic Card and Seal mechanics, and to load custom shaders for the new Editions.
+
+Problem, Goal, Solution.
+
 Building the Library:
 Emerald Seal Queuing:
 
