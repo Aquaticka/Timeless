@@ -41,11 +41,16 @@ Timeless aims to extend core content, adjust late-game build incentives, and mat
 Working within an existing game can be trickier in some ways than building your own game.
 
 Coding New Mechanics:
+
 Timeless implements mechanics outside of what already exists in Balatro. This required scripting new mechanics and modifying game systems, which required the mod to understand and interact directly with the source code. The [Lovely Injector](https://github.com/ethangreen-dev/lovely-injector) provided a method to dump the game's code into its source files, and to modify/inject new code at runtime. This was used to expand the localization parser, and inject a Skip Tag check at the end of each round. This let the mod render colourful, well-formatted effect descriptions to communicate new mechanics, and ensure the Memento/Tourmaline Seal effects trigger when they should. The [Steammodded Modloader](https://github.com/Steamodded/smods) provided a method for loading scripts into the game. This was used to load scripts for Mystic Card and Seal mechanics, and to load custom shaders for the new Editions.
 
 Problem, Goal, Solution.
 
 Building the Library:
+
+Creating an effect library was central in the development of Timeless. In addition to being a programming exercise, the mod was also a game-design exercise. This means that as the mod was developed, play-tester feedback led to new mechanics, scrapping mechanics, and modifying mechanics, requiring a dynamic codebase to adjust to each new change. Initially, each effect was modifying and getting data directly from Balatro's systems. This was effective in getting the first few seals working, but quickly led to problems. Similar effects had inconsistent VFX and interactions, changes to common algorithms had to happen at all their instances, and modifying scripts was challenging due to bloated, unabstracted code. This resulted in sluggish development, since each adjustment or addition became a recollection challenge and required repetitive modifications. To facilitate quick iteration and development, the "Aqua Library" was created to handle common operations across scripts. Each script was decomposed into its component parts, which were abstracted into common functions for any script to use. For example, the script for the Mystic card "Hunger" can be decomposed into the following operations: trigger the consumable, flip over selected cards, destroy a random selected card, given an edition to the remaining card, flip back over the remaining card, and deselect the card. Each individual operation can then be used across mechanics, vastly reducing the amount of time taken to create and modify mechanics: "Love" can then reuse the trigger, flip, and deselection operations in addition to new operations created for its script.
+
+
 Emerald Seal Queuing:
 
 
