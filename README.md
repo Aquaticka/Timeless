@@ -53,6 +53,8 @@ Creating an effect library was central in the development of Timeless. In additi
 
 Emerald Seal Queuing:
 
+Understanding Balatro's systems was core to implementing the Emerald Seal's effect. Like many games games, Balatro uses an event manager to handle functions which are executed over a given time interval. Calculating a played hand is a central example of this: when a hand is played, all of the played cards, seals, editions, jokers, and vouchers add an event to the event queue. The order of events in the queue determines the sequence/timing of the scoring and VFX which display on screen during the hand. This works great for standard mechanics, but problems arise when a mechanic's effect depends on the game state at execution time. The Emerald Seal creates an event to select a random card of the player's consumables and randomly generate a replacement card and copies it. To destroy and replace the card, a child event must be spawned to handle removal, replacement, and copying. However, the Aqua Library's functions only added events to the end of the queue. This meant that the child events occurred after the rest of the  hand ended, resulting in the sequence happening at the wrong time and failing to update the game state dynamically. To solve this, the parent event had to spawn child events to the start of the queue, requiring this functionality to be included in the Aqua Library. This works conceptually, but the queue locally becomes a stack: the first child event to be added will be the last one to executed. By reversing the order of child events, the implementation for the Emerald seal was found: a parent event picks which card to replace, then adds a child event to copy, replace, and destroy it, which get executed in reverse order.
+
 
 
 
